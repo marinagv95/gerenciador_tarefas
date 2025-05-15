@@ -1,0 +1,119 @@
+Sistema de Gerenciamento de Atividades
+
+Descrição do Projeto
+
+Este sistema permitirá ao usuário gerenciar uma lista de atividades usando arrays ou ArrayList. O sistema deve permitir adicionar atividades, pesquisar por título, excluir, atualizar, iniciar, finalizar e listar todas as atividades cadastradas.
+
+Menu do Sistema
+
+O sistema deve apresentar um menu com as seguintes opções:
+
+Adicionar Nova Atividade
+
+Pesquisar Atividade por Título
+
+Excluir Atividade pelo Título
+
+Atualizar Atividade pelo Título
+
+Iniciar Atividade
+
+Finalizar Atividade
+
+Listar Atividades (com Submenu)
+
+Sair do Sistema
+
+Detalhes das Operações
+
+Adicionar Nova Atividade:
+
+Solicite ao usuário a atividade.
+
+Inicialmente, a atividade deve estar como Pendente. (em um array, ArrayList ou HashMap)
+
+Exiba a mensagem "Nova atividade cadastrada com sucesso!"
+
+Pesquisar Atividade por Título:
+
+Permita que o usuário busque uma atividade pelo título.
+
+Se a atividade for encontrada, exiba suas informações (título, descrição e status). Caso contrário, informe "Atividade não encontrada."
+
+Excluir Atividade pelo Título:
+
+Permita que o usuário exclua uma atividade pelo título.
+
+Se a atividade for encontrada e excluída, exiba "Atividade excluída com sucesso!". Se não for encontrada, informe "Atividade não encontrada."
+
+Atualizar Atividade pelo Título:
+
+Permita que o usuário atualize as informações de uma atividade existente.
+
+Solicite o título da atividade a ser atualizada.
+
+Se encontrada, permita alterar o título e/ou a descrição.
+
+Exiba a mensagem "Atividade atualizada com sucesso!" após a atualização.
+
+Caso não seja encontrada, informe "Atividade não encontrada."
+
+Iniciar Atividade:
+
+Solicite o título da atividade a ser iniciada.
+
+Se a atividade for encontrada for Pendente, atualize o status para Em andamento e exiba "Atividade iniciada com sucesso!".
+
+Caso não seja encontrada, informe "Atividade não encontrada."
+
+Finalizar Atividade:
+
+Solicite o título da atividade a ser finalizada.
+
+Se a atividade for encontrada e estiver Em andamento, atualize para Concluída e exiba "Atividade finalizada com sucesso!".
+
+Caso não seja encontrada, informe "Atividade não encontrada."
+
+Listar Atividades (com Submenu):
+
+Apresente um submenu para o usuário escolher o tipo de listagem:
+
+Listar Todas as Atividades
+
+Listar Apenas Atividades Pendentes
+
+Listar Apenas Atividades Em andamento
+
+Listar Apenas Atividades Concluídas
+
+Voltar ao Menu Principal
+
+Com base na escolha:
+
+Exiba a lista filtrada com título, descrição e status.
+
+Se não houver atividades no tipo selecionado, exiba mensagens como:
+
+"Nenhuma atividade pendente cadastrada."
+
+"Nenhuma atividade em andamento cadastrada."
+
+"Nenhuma atividade concluída cadastrada."
+
+Ou, no caso geral: "Nenhuma atividade cadastrada."
+
+Feedback nas Operações:
+
+Fornecer sempre feedback ao usuário, por exemplo:
+
+"Nova atividade cadastrada com sucesso!"
+
+"Atividade excluída com sucesso!"
+
+"Atividade atualizada com sucesso!"
+
+"Atividade iniciada com sucesso!"
+
+"Atividade finalizada com sucesso!"
+
+"Operação falhou: atividade não encontrada."
